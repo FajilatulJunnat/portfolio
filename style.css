@@ -31,6 +31,9 @@
     position: absolute;
     
 }
+.about-me{
+    background-color: rgb(253, 227, 227);
+}
 /** **/
 .cv{
     height: 50vw;
