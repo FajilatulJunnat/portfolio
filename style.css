@@ -10,16 +10,15 @@
 .abc{
     background-color: rgb(154, 206, 207);
 }
-.about{
-    height: 50vw;
-}
+
 .image{
     background-image: url(./header_bg.png);
     background-repeat: no-repeat;
     
 }
+/** hover link**/
 .nav-item{
-    transition: all .5s;
+    transition: all .2s;
 }
 .nav-item:hover{
     border-bottom: 2px solid rgb(56, 156, 158);
@@ -28,7 +27,31 @@
 }
 .nav-item:after{
     margin: 0 auto;
-    transition: all .5s;
+    transition: all .2s;
+    position: absolute;
+    
+}
+/** **/
+.cv{
+    height: 50vw;
+}
+
+   
+
+.adu::-webkit-scrollbar{
+    display: none;
+}
+.my{
+    transition: all .2s; 
+}
+.my:hover{
+    border-bottom: 2px solid rgb(56, 156, 158);
+    margin: 0 auto;
+    padding: 0;
+}
+.my::after{
+    margin: 0 auto;
+    transition: all .2s;
     position: absolute;
     background-color: black;
 }
