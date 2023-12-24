@@ -32,7 +32,7 @@
     
 }
 .about-me{
-    background-color: rgb(253, 227, 227);
+    background-color: rgb(255, 248, 250);
 }
 /** **/
 .cv{
@@ -57,4 +57,8 @@
     transition: all .2s;
     position: absolute;
     background-color: black;
+}
+.foo{
+    height: 30vw;
+    background-color: rgb(255, 248, 250);
 }
