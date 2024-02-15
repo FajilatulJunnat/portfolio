@@ -62,3 +62,95 @@
     
     background-color: rgb(255, 248, 250);
 }
+.card-child:hover .card-div{
+    -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+   transition: 0.5s;
+}
+.card-child:hover .card-title{
+    color:  rgb(240, 170, 170);
+}
+/* .card-div{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+      display: block;
+      overflow: hidden;
+} */
+.card-div{
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+      display: block;
+      overflow: hidden;
+   
+}
+.ico:hover{
+    transform: rotateY(180deg);
+    transition: width 2s, height 4s, transform 2s;
+}
+.ico:hover .abc{
+    background-color:rgb(240, 170, 170) ;
+ 
+}
+.ico-foo:hover{
+    transform: rotateY(180deg);
+    transition: width 2s, height 4s, transform 2s;
+    color: rgb(240, 170, 170) !important; 
+}
+/*progress bar*/
+.bg-pro{
+    background-color:  rgb(154, 206, 207) !important;
+}
+/*prject swiper*/
+.swiper {
+    width: 100%;
+    height: 100%;
+   
+    position: relative;
+  }
+
+  .swiper-slide {
+    /* text-align: center; */
+    font-size: 15px;
+  
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% ;
+    height: 100% !important;
+    object-fit: cover;
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+      display: block;
+  }
+
+  .swiper-slide img {
+    display: block;
+    
+  }
+
+  .swiper-slide {
+    width: 33.333333%;
+   
+  }
+  .swiper-wrapper .swiper-slide{
+   
+    overflow: hidden;
+  }
+  .swiper-slide:hover img{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+     transition: 0.5s ease-in-out;
+  }
+  .swiper-slide:hover .card-title{
+    color: rgb(240, 170, 170);
+  }
+  .pro-btn:hover{
+    background-color: rgb(240, 170, 170) !important;
+  }
